@@ -34,7 +34,7 @@ function removeSpecialCharacter(str) {
   // }
 
   let _str = str.substring(0, 300);
-  _str = _str.replace(/[\#\_\*\~\&\;\[\]\`\n\=\-]/g, '');
+  _str = _str.replace(/[#_*~&;[\]`\n=-]/g, '');
 
   return _str;
 }
